@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/home100" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="257dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="Número"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/QRCodeWhiteColor"
+        android:textColorHint="@color/QRCodeWhiteColor"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="169dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="PIN"
+        android:inputType="numberPassword"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/QRCodeWhiteColor"
+        android:textColorHint="@color/QRCodeWhiteColor"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@null"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:ems="10"
+        android:hint="CSV"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        android:textColor="@color/QRCodeWhiteColor"
+        android:textColorHint="@color/QRCodeWhiteColor" />
+
+    <Button
+        android:id="@+id/beginsesion"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:text="" />
+
+</RelativeLayout>
