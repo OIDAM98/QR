@@ -93,7 +93,7 @@ public class QrReaderActivity extends AppCompatActivity {
             } else {
                 Log.e("Scan", "Scanned");
                 String res = result.getContents();
-                String name = (hm.get(res) != null) ? hm.get(res) : "";
+                String name = (hm.get(res) != null) ? hm.get(res) : res;
                 int price = (dollars.get(res) != null) ? Integer.parseInt(dollars.get(res)) : 0;
 
                 readTxt.append("\n" + i + ") "+ name + ": " + price);
